@@ -13,3 +13,11 @@ Formatar código: `npm run lint:fix`
 `npm test`
 
 `npm run test:watch`
+
+### Banco:
+
+`docker compose up -d --force-recreate`
+
+`psql --host=localhost --username=postgres --port 5432`
+
+`docker compose down`
